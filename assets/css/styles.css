@@ -25,9 +25,6 @@ main {
     margin: 30px 0 110px;
 }
 a {
-    background-color: #F8F8F8;
-    color: #4AAAA5;
-    padding: 3px;
     text-decoration: none;
 }  
 a:hover {
@@ -105,6 +102,9 @@ nav ul li a:hover {
 
 /** home links only **/
 .home .main-inner a {
+    background-color: #F8F8F8;
+    color: #4AAAA5;
+    padding: 3px;
     position: relative;
 }
 .home .main-inner a:after{
@@ -119,7 +119,7 @@ nav ul li a:hover {
     width: 0; 
   }
    
-.home .main-inner a:hover:after{
+.home .main-inner a:hover:after {
     background: red;
     left: 0;
     width: 100%;
@@ -151,7 +151,6 @@ nav ul li a:hover {
     position: absolute;
     width: 96%;
 }
-
 .portfolio .item .item-caption a {
     color: white;
 }
