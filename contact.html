@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Peter's Portfolio Site - CONTACT</title>
+    <title>Peter's Portfolio Site - HOME</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Teko" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Contact</h1>
-    
+    <header>
+        <div class="container">
+            <h1>Peter Abeln</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="contact">
+        <div class="container">
+            <section class="main-inner">
+                <h2>Contact </h2>
+                <form action="">
+                    <label for="fullname">
+                        Name<br>
+                        <input type="text" name="fullname" id="fullname" placeholder="John Smith">
+                    </label>
+                    <label for="emailAddress">
+                        Email<br>
+                        <input type="email" name="emailAddress" id="emailAddress" placeholder="johnsmith@email.com">
+                    </label>
+                    <label for="message">
+                        Message<br>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </label>
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">&copy; Copyright</div>
+    </footer>
 </body>
 </html>
